@@ -8,7 +8,7 @@ const Hero = () => {
           <h1 className="mb-2 text-4xl font-bold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">
             Welcome to Asa Foundation
           </h1>
-          <h3 className=" mb-6 text-xl px-3 font-medium tracking-tight leading-none md:text-4xl lg:text-4xl dark:text-blue-400 text-center">
+          <h3 className=" mb-6 text-xl px-3 font-medium tracking-tight leading-none md:text-4xl lg:text-4xl dark:text-blue-400 text-blue-400 text-center">
             Honoring Asa Kumari's Legacy, Empowering Children
           </h3>
           <p className="mb-8 px-4 text-sm font-light text-gray-300 lg:text-lg sm:px-16 lg:px-44">
