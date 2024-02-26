@@ -112,7 +112,7 @@ const Navbar = () => {
             <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 dark:border-gray-700">
               <li>
                 <button
-                  className={`block py-2 px-3 ${activeMenuItem === "Home" ? "text-blue-700" : "text-white"}  rounded md:bg-transparent md:p-0`}
+                  className={`block py-2 px-3 ${activeMenuItem === "Home" ? "text-blue-700" : "dark:text-white text-slate-800 "}  rounded md:bg-transparent md:p-0`}
                   aria-current="page"
                   onClick={() => scrollToElement("homeRef", "Home")}
                 >
@@ -121,7 +121,7 @@ const Navbar = () => {
               </li>
               <li>
                 <button
-                  className={`block py-2 px-3 ${activeMenuItem === "About" ? "text-blue-700" : "text-white"}  rounded md:bg-transparent md:p-0`}
+                  className={`block py-2 px-3 ${activeMenuItem === "About" ? "text-blue-700" : "dark:text-white text-slate-800"}  rounded md:bg-transparent md:p-0`}
                   onClick={() => scrollToElement("aboutRef", "About")}
                 >
                   About
@@ -130,14 +130,14 @@ const Navbar = () => {
               <li>
                 <button
                   onClick={() => scrollToElement("galleryRef", "About")}
-                  className={`block py-2 px-3 ${activeMenuItem === "Gallery" ? "text-blue-700" : "text-white"}  rounded md:bg-transparent md:p-0 text-start`}
+                  className={`block py-2 px-3 ${activeMenuItem === "Gallery" ? "text-blue-700" : "dark:text-white text-slate-800"}  rounded md:bg-transparent md:p-0 text-start`}
                 >
                   Gallery
                 </button>
               </li>
               <li>
                 <button
-                  className={`block py-2 px-3 ${activeMenuItem === "Contact" ? "text-blue-700" : "text-white"}  rounded md:bg-transparent md:p-0`}
+                  className={`block py-2 px-3 ${activeMenuItem === "Contact" ? "text-blue-700" : "dark:text-white text-slate-800"}  rounded md:bg-transparent md:p-0`}
                   onClick={() => scrollToElement("contactRef", "Contact")}
                 >
                   Contact
