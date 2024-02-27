@@ -12,7 +12,6 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <ScrollToSection />
         <ScrollHandler />
         <Navbar />
         <Routes>
@@ -20,6 +19,7 @@ function App() {
           <Route path="*" element={<PageNotFound />} />
         </Routes>
         <Footer />
+        <ScrollToSection />
       </Router>
     </div>
   );
