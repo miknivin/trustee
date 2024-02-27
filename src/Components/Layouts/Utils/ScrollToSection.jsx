@@ -13,7 +13,7 @@ const ScrollToSection = () => {
         element.scrollIntoView({ behavior: "smooth" });
       }
     }
-  }, [location.search]);
+  }, []);
 
   return null;
 };
